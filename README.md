@@ -11,3 +11,14 @@ In this scenario, users are able to make payments by scanning QR Codes provided 
 4. Binance notify Merchants and users the status of payments.
 
 <img alt="C2B Scenarios" src="https://developers.binance.com/docs/assets/images/BinancePay-Pay-QRCodeV2-c36f5c72e5745d2754be772ee7390aec.png" />
+
+## Binance Pay API: Authentication
+The Binance Pay API uses API keys to authenticate requests. You can view and manage your API keys in the [Binance Merchant Admin Portal](https://merchant.binance.com/en).
+
+Your API keys carry many privileges, so be sure to keep them secure! Do not share your secret API keys in publicly accessible areas such as GitHub, client-side code, and so forth.
+
+All API requests must be made over HTTPS. Calls made over plain HTTP will fail. API requests without authentication will also fail.
+
+Apply API identity key and API secret key#
+Register Merchant Account at Binance
+Login merchant account and create new API identity key/API secret key [Binance Merchant Admin Portal](https://merchant.binance.com/en).
